@@ -1,0 +1,38 @@
+languageToTranslation = new HashMap<>();
+put(Language.X, "Welcome Pack");
+put(Language.ASSAMESE, "ৱেলকাম পেক");
+put(Language.BENGALI, "ওয়েলকাম প্যাক");
+put(Language.BHOJPURI, "वेलकम पैक");
+put(Language.GUJARATI, "વેલકમ પેક");
+put(Language.HARYANVI, "वेलकम पैक");
+put(Language.HINDI, "वेलकम पैक");
+put(Language.KANNADA, "ವೆಲ್ ಕಮ್ ಪ್ಯಾಕ್");
+put(Language.MALAYALAM, "വെൽക്കം പാക്ക്");
+put(Language.MARATHI, "वेलकम पॅक");
+put(Language.TELUGU, "వెల్‌కమ్‌ ప్యాక్");
+put(Language.ODIA, "ଓ୍ବେଲକମ୍‌ ପ୍ୟାକ୍");
+put(Language.PUNJABI, "ਸਵਾਗਤ ਪੈਕ");
+put(Language.RAJASTHANI, "वेलकम पैक");
+put(Language.TAMIL, "வெல்கம் பாக்");
+put(Language.URDU, "خوش آمدید پیک");
+englishToVernacular.put(languageToTranslation.get("English").toLowerCase(), languageToTranslation);
+
+languageToTranslation = new HashMap<>();
+put(Language.X, "Recharge for Total ₹%n and win bonus Rewards");
+put(Language.ASSAMESE, "টোটেল ₹%nৰ বাবে ৰিচাৰ্জ কৰক আৰু বোনাচ ৰিৱাৰ্ড জিকক");
+put(Language.BENGALI, "টোটাল ₹%n -এর রিচার্জ করুন এবং বোনাস রিওয়ার্ড জিতুন");
+put(Language.BHOJPURI, "कुल ₹%n खातिर रिचार्ज करीं अउर जीतीं बोनस रिवॉर्ड्स");
+put(Language.GUJARATI, "કુલ ₹%n નું રિચાર્જ કરો અને બોનસ રિવૉર્ડ્સ જીતો");
+put(Language.HARYANVI, "कुल ₹%n का रीचार्ज करैं अर जीतो बोनस रिवॉर्ड्स");
+put(Language.HINDI, "कुल ₹%n के लिए रीचार्ज करें और जीतें बोनस रिवॉर्ड्स");
+put(Language.KANNADA, "ಟೋಟಲ್ ₹%n ಗೆ ರೀಚಾರ್ಜ್ ಮಾಡಿ ಮತ್ತು ಬೋನಸ್ ರಿವಾರ್ಡ್ ಗಳನ್ನು ಗೆಲ್ಲಿ");
+put(Language.MALAYALAM, "മൊത്തം ₹%n റീചാർജ് ചെയ്ത് ബോണസ് റിവാർഡ്സ് നേടൂ");
+put(Language.MARATHI, "एकूण ₹%n साठी रिचार्ज करा आणि बोनस रिवॉर्ड्स जिंका");
+put(Language.TELUGU, "టోటల్ ₹%n కి రీఛార్జ్ చేయండి మరియు బోనస్‌ రివార్డ్స్‌ని గెలుచుకోండి");
+put(Language.ODIA, "ମୋଟ ₹%n ମୂଲ୍ୟର ରିଚାର୍ଜ କରନ୍ତୁ ଏବଂ ବୋନସ୍‌ ପୁରସ୍କାର ଜିତନ୍ତୁ");
+put(Language.PUNJABI, "ਕੁੱਲ ₹%n ਲਈ ਰੀਚਾਰਜ ਕਰੋ ਅਤੇ ਬੋਨਸ ਇਨਾਮ ਜਿੱਤੋ");
+put(Language.RAJASTHANI, "कुल ₹%n खातिर रीचार्ज करो और जीतो बोनस रिवॉर्ड्स");
+put(Language.TAMIL, "மொத்தம் ₹%nக்கு ரீசார்ஜ் செய்து, போனஸ் ரிவார்டுகளை வெல்லுங்கள்");
+put(Language.URDU, "کل ₹%n کے لیے ریچارج کریں اور بونس ریوارڈز جیتیں");
+englishToVernacular.put(languageToTranslation.get("English").toLowerCase(), languageToTranslation);
+
