@@ -49,7 +49,7 @@ public class XLSXREADER {
                     if (header.equals("Strings"))
                         header = "English";
                     String value = sheet.getRow(i).getCell(startColumnNumber).getStringCellValue().replaceAll("^\\s+|\\s+$", "");
-                    myWriter.write("put(" + header  + ", \"" + value + "\");\n");
+                    myWriter.write("put(" + header + ", \"" + value + "\");\n");
                     startColumnNumber++;
                 }
 
